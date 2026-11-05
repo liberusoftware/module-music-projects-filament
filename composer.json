@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/music-projects-filament",
+  "description": "Projects and Sessions Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability6fe68c99a1bd\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "music-projects-filament"
+    }
+  }
+}
