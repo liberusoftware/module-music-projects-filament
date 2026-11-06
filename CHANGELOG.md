@@ -1,6 +1,7 @@
 # Changelog
 
-## 0.1.0-alpha.0 — Unreleased skeleton
+## 0.1.0 — under development
 
-- Provide independent package metadata, a disabled Liberu module manifest, an empty Laravel provider and a Filament extension entry.
-- Domain resources, API integration and product workflows require implementation and verification.
+- Compose Music sessions, track metadata, checkpoints, recovery and portable manifests into Filament app/admin panels.
+- Resolve the workspace on the server and enforce a locked current-workspace boundary on every embedded request.
+- Reuse Core policy, immutable revision/media and replay-safe command behavior without introducing domain persistence.
